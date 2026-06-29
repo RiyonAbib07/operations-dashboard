@@ -1,0 +1,22 @@
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Mac system files
+.DS_Store
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# Editor
+.vscode/settings.json
