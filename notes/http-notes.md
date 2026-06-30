@@ -29,4 +29,4 @@ The browser sends the session ID cookie with every request, allowing the server 
 -> Prevents passwords and sensitive data from being stolen.
 -> Protects against eavesdropping and tampering.
 -> Verifies you're communicating with the correct server using SSL/TLS certificates.
--> Keeps internal company tools secure, especially on shared or public networks.
+-> Keeps internal company tools secure, especially on shared or public networks. 
