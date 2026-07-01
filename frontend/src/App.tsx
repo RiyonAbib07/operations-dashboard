@@ -3,8 +3,10 @@ import CryptoWidget from './components/widgets/CryptoWidget';
 import FXWidget from './components/widgets/FXWidget';
 import MacroWidget from './components/widgets/MacroWidget';
 import HackerNewsWidget from './components/widgets/HackerNewsWidget';
+import WHOWidget from './components/widgets/WHOWidget';
 import AirQualityWidget from './components/widgets/AirQualityWidget';
 import HRWidget from './components/widgets/HRWidget';
+import RedditWidget from './components/widgets/RedditWidget';
 import WeatherWidget from './components/widgets/WeatherWidget';
 import TimeWidget from './components/widgets/TimeWidget';
 import CalendarWidget from './components/widgets/CalendarWidget';
@@ -14,7 +16,7 @@ function App() {
     <div className="dashboard">
       <div className="dashboard-header">
         <h1>Operations Dashboard</h1>
-        <p>Founder's Office · SOP Monitoring · Live Data</p>
+        <p>Founder's Office - SOP Monitoring - Live Data from 8 Public Sources</p>
       </div>
 
       <div className="widgets-grid">
@@ -24,9 +26,11 @@ function App() {
         <FXWidget />
         <MacroWidget />
         <AirQualityWidget />
+        <WHOWidget />
         <HRWidget />
         <CalendarWidget />
         <HackerNewsWidget />
+        <RedditWidget />
       </div>
     </div>
   );
